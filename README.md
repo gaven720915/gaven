@@ -9,9 +9,9 @@
 - **提出修改意见**：[新建网站反馈](https://github.com/gaven720915/gaven/issues/new?template=website-feedback.yml)。请注明页面位置、当前问题、建议改法，并附截图。
 - **查看已有意见**：[Issues](https://github.com/gaven720915/gaven/issues)。
 - **打开完整网站**：点击仓库 `Code → Download ZIP`，解压后用浏览器打开 `docs/index.html`。无需安装依赖，电脑和手机布局均已适配。
-- **站主预览**：[Sites 网站](https://jingyu-consulting.luckyjhon.chatgpt.site)。此地址目前仅站主可访问，同事请使用下载方式或启用下述 GitHub Pages。
+- **直接在线浏览**：[景域咨询网站](https://jingyu-consulting.luckyjhon.chatgpt.site)。已开放公开访问，同事无需下载或申请权限，可直接在浏览器打开。
 
-## 启用在线预览（仓库管理员）
+## 可选：另行启用 GitHub Pages（仓库管理员）
 
 前往 [Settings → Pages](https://github.com/gaven720915/gaven/settings/pages)，在 Build and deployment 中选择 `Deploy from a branch`，分支选择 `main`，目录选择 `/docs`，然后保存。
 
