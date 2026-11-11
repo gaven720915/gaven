@@ -1,0 +1,31 @@
+name: 网站修改建议
+description: 对景域咨询网站提出文案、视觉或功能修改意见
+title: "[网站反馈] "
+body:
+  - type: dropdown
+    id: area
+    attributes:
+      label: 页面位置
+      options:
+        - 页头与 LOGO
+        - 首页主视觉
+        - 关于景域
+        - 主营业务
+        - 工作方法
+        - 景域视角
+        - 合作需求与页尾
+        - 整体风格或其他
+    validations:
+      required: true
+  - type: textarea
+    id: feedback
+    attributes:
+      label: 修改建议
+      description: 请描述当前问题与期望修改后的效果，可在此粘贴截图。
+    validations:
+      required: true
+  - type: input
+    id: device
+    attributes:
+      label: 查看设备与浏览器
+      placeholder: 例如 iPhone Safari、Windows Chrome

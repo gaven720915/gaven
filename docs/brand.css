@@ -1,0 +1,28 @@
+/* Frame the supplied artwork's outer whitespace without modifying the source. */
+.brand { flex-shrink: 0; }
+.logo-window {
+  display: block;
+  position: relative;
+  width: 218px;
+  aspect-ratio: 1680 / 620;
+  overflow: hidden;
+}
+.logo-window img {
+  position: absolute;
+  width: 178.57143%;
+  max-width: none;
+  height: auto;
+  left: -16.07143%;
+  top: -49.19355%;
+}
+footer { background: #fff; color: var(--ink); border-top: 1px solid var(--line); }
+footer .logo-window { width: 250px; }
+@media (max-width: 700px) {
+  .logo-window { width: 170px; }
+  .header { padding-inline: 20px; }
+  .header .nav-contact { margin-right: 14px; }
+}
+@media (max-width: 360px) {
+  .header .logo-window { width: 145px; }
+  .header { padding-inline: 16px; }
+}
